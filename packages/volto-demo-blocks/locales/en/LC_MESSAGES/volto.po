@@ -11,4 +11,67 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "URL"
+#: components/Blocks/Block01/messages
+#: components/Blocks/Block02/messages
+#: components/Blocks/Block03/messages
+#: components/Blocks/Block04/messages
+#: components/Blocks/Block05/messages
+#: components/Blocks/Block06/messages
+msgid "URL"
+msgstr "URL EN"
 
+#. Default: "Block 01"
+#: components/Blocks/Block01/messages
+msgid "block01"
+msgstr "Block 01 EN"
+
+#. Default: "Block 02"
+#: components/Blocks/Block02/messages
+msgid "block02"
+msgstr "Block 02 EN"
+
+#. Default: "Block 03"
+#: components/Blocks/Block03/messages
+msgid "block03"
+msgstr "Block 03 EN"
+
+#. Default: "Block 04"
+#: components/Blocks/Block04/messages
+msgid "block04"
+msgstr "Block 04 EN"
+
+#. Default: "Block 05"
+#: components/Blocks/Block05/messages
+msgid "block05"
+msgstr "Block 05 EN"
+
+#. Default: "Block 06"
+#: components/Blocks/Block06/messages
+msgid "block06"
+msgstr "Block 06 EN"
+
+#. Default: "Default"
+#: components/Blocks/Block01/messages
+#: components/Blocks/Block02/messages
+#: components/Blocks/Block03/messages
+#: components/Blocks/Block04/messages
+#: components/Blocks/Block05/messages
+#: components/Blocks/Block06/messages
+msgid "default"
+msgstr "Default EN"
+
+#. Default: "Title"
+#: components/Blocks/Block01/messages
+#: components/Blocks/Block02/messages
+#: components/Blocks/Block03/messages
+#: components/Blocks/Block04/messages
+#: components/Blocks/Block05/messages
+#: components/Blocks/Block06/messages
+msgid "title"
+msgstr "Title EN"
+
+#. Default: "Variation"
+#: components/Blocks/Block04/messages
+msgid "variation"
+msgstr "Variation EN"
