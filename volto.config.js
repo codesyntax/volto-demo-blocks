@@ -1,5 +1,5 @@
 const addons = ['volto-demo-blocks'];
-const theme = '';
+const theme = '@kitconcept/volto-light-theme';
 
 module.exports = {
   addons,
