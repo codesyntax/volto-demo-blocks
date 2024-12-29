@@ -9,7 +9,48 @@ An addon for Volto thatt contains some dummy blocks. The code on this block is a
 
 ## Features
 
-<!-- List your awesome features here -->
+This addon provides 6 different Volto Blocks. They are meant to be used as demo-code to learn how Volto Blocks are created.
+
+You can copy-and-paste the code into your project and modify where required.
+
+All block code is compatible with the [Block style wrapper](https://6.docs.plone.org/volto/blocks/block-style-wrapper.html) so either the values coming from the `styling` schema (if available) or class names added by the [styleClassNameExtenders](https://6.docs.plone.org/volto/configuration/settings-reference.html#term-styleClassNameExtenders) will be available in your blocks.
+
+### Block 01: custom schema, no View and no Edit components
+
+This block uses Volto provided View and Edit components. It only configures a custom schema with a URL and a title.
+
+This block shows how Volto provides the Edit component automatically, without needing to add any boilerplate. It also shows that Volto provides a very simple View component that renders all values in the schema.
+
+
+### Block 02: custom schema and View. No Edit component
+
+This block uses Volto provided Edit component. It configures a custom schema with a URL and a title and provides also a View component.
+
+This block shows how we can configure a simple block with some fields and build a custom view component for it without worrying about the Edit component.
+
+### Block 03: custom View and Edit components
+
+This block uses custom View and Edit components. As we are using a custom Edit component, there is no need to configure the block schema.
+
+This block shows how we can create a simple block with custom View and Edit components. The Edit component featured here is a basic one where we just inject a schema in it.
+
+### Block 04: custom View and schema, and manual variations
+
+This block uses a custom view component and defines a schema for it. But the schema features a special field called `variation` and also a list of available `variations` in the block configuration.
+
+This block shows how to create a *manual* implementation of variations and how we call the selected variation's template.
+
+### Block 05: custom View and variations provided by Volto
+
+This block uses a custom view component and makes use of the `withBlockExtensions` HOC that Volto provides to provide variations.
+
+This block shows how we can build a block that uses variations. Just wrapping the view component definition with the `withBlockExtensions` HOC, and providing a list of variations in the block config.
+
+### Block 06: custom View, variations provided by Volto, and schema enhancing in a given variation
+
+This block uses a custom view component and makes use of the `withBlockExtensions` HOC that Volto provides to provide variations. One of the variation uses a schema enhancer to provide additional fields to the block when using this variation.
+
+This block shows how we can build a block that uses variations. Just wrapping the view component definition with the `withBlockExtensions` HOC, and providing a list of variations in the block config. Moreover, it shows how we can use the schema enhancing functionality to add additional fields to the block when using a given variation.
 
 ## Installation
 
