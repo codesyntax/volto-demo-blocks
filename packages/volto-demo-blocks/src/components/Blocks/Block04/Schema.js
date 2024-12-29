@@ -1,32 +1,33 @@
 import config from '@plone/volto/registry';
+import messages from './messages';
 
-const Schema = () => {
+const Schema = ({ intl }) => {
   const variationsConfig = config.blocks.blocksConfig['block04'].variations;
   const variations = Object.keys(variationsConfig).map((variation) => [
     variationsConfig[variation].id,
     variationsConfig[variation].title,
   ]);
   return {
-    title: 'Block 04',
+    title: intl.formatMessage(messages.block04),
     block: 'block04',
     fieldsets: [
       {
         id: 'default',
-        title: 'Default',
+        title: intl.formatMessage(messages.default),
         fields: ['url', 'title', 'variation'],
       },
     ],
 
     properties: {
       url: {
-        title: 'URL',
+        title: intl.formatMessage(messages.URL),
         widget: 'url',
       },
       title: {
-        title: 'Title',
+        title: intl.formatMessage(messages.title),
       },
       variation: {
-        title: 'Variation',
+        title: intl.formatMessage(messages.variation),
         type: 'choice',
         choices: variations,
       },

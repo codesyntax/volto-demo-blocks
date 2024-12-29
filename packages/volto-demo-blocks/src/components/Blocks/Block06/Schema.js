@@ -1,22 +1,24 @@
-const Schema = () => {
+import messages from './messages';
+
+const Schema = ({ intl }) => {
   return {
-    title: 'Block 05',
-    block: 'block05',
+    title: intl.formatMessage(messages.block06),
+    block: 'block06',
     fieldsets: [
       {
         id: 'default',
-        title: 'Default',
+        title: intl.formatMessage(messages.default),
         fields: ['url', 'title'],
       },
     ],
 
     properties: {
       url: {
-        title: 'URL',
+        title: intl.formatMessage(messages.URL),
         widget: 'url',
       },
       title: {
-        title: 'Title',
+        title: intl.formatMessage(messages.title),
       },
     },
     required: [],

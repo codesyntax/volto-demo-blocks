@@ -15,8 +15,8 @@ const Edit = (props) => {
 
       <SidebarPortal selected={selected}>
         <BlockDataForm
-          schema={schema()}
-          title={schema().title}
+          schema={schema(props)}
+          title={schema(props).title}
           onChangeField={(id, value) => {
             onChangeBlock(block, {
               ...data,
