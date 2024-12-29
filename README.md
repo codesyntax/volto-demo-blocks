@@ -15,6 +15,8 @@ You can copy-and-paste the code into your project and modify where required.
 
 All block code is compatible with the [Block style wrapper](https://6.docs.plone.org/volto/blocks/block-style-wrapper.html) so either the values coming from the `styling` schema (if available) or class names added by the [styleClassNameExtenders](https://6.docs.plone.org/volto/configuration/settings-reference.html#term-styleClassNameExtenders) will be available in your blocks.
 
+All block schemas are internationalized, which means that if you run `make i18n` the field names will be added to the po files, ready to be translated into other languages.
+
 ### Block 01: custom schema, no View and no Edit components
 
 This block uses Volto provided View and Edit components. It only configures a custom schema with a URL and a title.
