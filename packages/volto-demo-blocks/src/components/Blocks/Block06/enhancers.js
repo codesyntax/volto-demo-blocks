@@ -1,9 +1,10 @@
-const schemaEnhancerVariation02 = ({ formData, schema, intl }) => {
-  schema.properties.color = {
-    title: 'Color',
-  };
-  schema.fieldsets[0].fields.push('color');
-  return schema;
-};
+import { defineMessages } from 'react-intl';
 
-export default schemaEnhancerVariation02;
+const messages = defineMessages({
+  title: {
+    id: 'title',
+    defaultMessage: 'Title',
+  },
+});
+
+export default messages;

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2024-12-29T17:03:51.952Z\n"
+"POT-Creation-Date: 2025-02-06T08:06:40.315Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -18,7 +18,6 @@ msgstr ""
 #: components/Blocks/Block02/messages
 #: components/Blocks/Block03/messages
 #: components/Blocks/Block04/messages
-#: components/Blocks/Block05/messages
 #: components/Blocks/Block06/messages
 msgid "URL"
 msgstr ""
@@ -43,11 +42,6 @@ msgstr ""
 msgid "block04"
 msgstr ""
 
-#. Default: "Block 05"
-#: components/Blocks/Block05/messages
-msgid "block05"
-msgstr ""
-
 #. Default: "Block 06"
 #: components/Blocks/Block06/messages
 msgid "block06"
@@ -58,7 +52,6 @@ msgstr ""
 #: components/Blocks/Block02/messages
 #: components/Blocks/Block03/messages
 #: components/Blocks/Block04/messages
-#: components/Blocks/Block05/messages
 #: components/Blocks/Block06/messages
 msgid "default"
 msgstr ""
@@ -69,6 +62,7 @@ msgstr ""
 #: components/Blocks/Block03/messages
 #: components/Blocks/Block04/messages
 #: components/Blocks/Block05/messages
+#: components/Blocks/Block06/enhancers
 #: components/Blocks/Block06/messages
 msgid "title"
 msgstr ""
