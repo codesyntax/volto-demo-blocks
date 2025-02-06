@@ -42,6 +42,7 @@ const applyConfig = (config) => {
     blockSchema: Schema01,
     icon: imagesSVG,
     sidebarTab: 1, // This signals the Volto UI to select by default the 'Blocks' tab
+    group: 'common',
   };
 
   // Block 02
@@ -57,6 +58,7 @@ const applyConfig = (config) => {
     blockSchema: Schema02,
     icon: imagesSVG,
     sidebarTab: 1,
+    group: 'common',
   };
 
   // Block 03
@@ -69,6 +71,7 @@ const applyConfig = (config) => {
     //blockSchema: Schema03,
     icon: imagesSVG,
     sidebarTab: 1,
+    group: 'common',
   };
 
   // Block 04
@@ -84,6 +87,7 @@ const applyConfig = (config) => {
     blockSchema: Schema04,
     icon: imagesSVG,
     sidebarTab: 1,
+    group: 'common',
     variations: [
       {
         id: 'default',
@@ -109,6 +113,7 @@ const applyConfig = (config) => {
     blockSchema: Schema05,
     icon: imagesSVG,
     sidebarTab: 1,
+    group: 'common',
     variations: [
       {
         id: 'variation01',
@@ -135,6 +140,7 @@ const applyConfig = (config) => {
     blockSchema: Schema06,
     icon: imagesSVG,
     sidebarTab: 1,
+    group: 'common',
     variations: [
       {
         id: 'variation01',
